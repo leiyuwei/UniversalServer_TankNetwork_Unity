@@ -14,6 +14,6 @@ namespace UniversalServerFramework.Core
             get; set;
         }        
         public PlayerTempdata playerTempdata { get; set; }
-        private Conn conn;
+        private NL_Server conn;
     }
 }

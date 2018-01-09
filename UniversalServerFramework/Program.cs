@@ -27,7 +27,7 @@ namespace UniversalServerFramework
             //else Console.WriteLine("CreatePlayer is false");
 
             //PlayerData playerData = dataManager.GetPlayerData(id);
-            //if (playerData != null) Console.WriteLine("Player data Score : "+playerData.Score);
+            //if (playerData != null) Console.WriteLine("Player data Score : " + playerData.Score);
             //else Console.WriteLine("Error in PlayerData.");
 
             //playerData.Score -= 10;
@@ -39,6 +39,13 @@ namespace UniversalServerFramework
             //playerData = dataManager.GetPlayerData(id);
             //if (playerData != null) Console.WriteLine("Player data Score : " + playerData.Score);
             //else Console.WriteLine("Error in PlayerData.");
+
+
+            //测试粘包分包处理
+
+            //NL_Server server = new NL_Server();
+            //server.Startup("127.0.0.1");            
+
 
             Console.Read();
         }
